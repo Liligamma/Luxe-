@@ -1,0 +1,89 @@
+h1{
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  font-size: 32px;
+}
+
+.largeur-33-elmt-centre{
+  width: 33%;
+  margin: auto;
+}
+
+.largeur-70-elmt-centre{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.bordure-solide-marron{
+    border: 3px solid rgb(89,25,2);
+}
+
+.hauteur-150p{
+  height: 150px;
+}
+
+.bg-img-diamant{
+  background-image: url(../assets/diamant.png);
+  background-size:50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btn-contact{
+  display: block;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: rgb(255,155,0);
+  border: none;
+}
+
+.btn-contact:hover{
+  background-color: rgb(255,200,0);
+  cursor: pointer;
+}
+
+.btn-commander{
+  display: block;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: rgb(0,255,155);
+  border: none;
+}
+
+.btn-commander:hover{
+  background-color: rgb(0,255,200);
+  cursor: pointer;
+}
+
+.conteneur-contact{
+  display: none;
+  padding: 15px;
+}
+
+.conteneur-commande{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 5px dotted rgb(0,255,155);
+}
+
+.confirmation-commande{
+  background-color: rgb(0,255,155)
+  color:rgb(0 0 0);
+}
+
+#conteneur-liste li{
+  margin-left: 20px;
+  list-style: circle;
+}

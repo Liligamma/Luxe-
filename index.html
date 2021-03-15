@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<!--
+Le DOCTYPE permet de préciser la version de HTML dans laquelle nous écrivons le code.
+le fait de mentionner html après DOCTYPE précise que nous utilisons la version 5.X de ce langage.
+ -->
+
+<html>
+  <head>
+    <!-- on demande au navigateur de faire un rendu graphique de tous les caractères de toutes les langue du monde -->
+    <meta charset="utf-8">
+
+    <!-- On s'adresse aux moteurs de recherches pour indiquer un contenu à afficher dans le résumé inclus dans la page de réponse à une recherche de mots-clés -->
+    <meta name="description" content="Le contenu à afficher dans le moteur de recherche Google.">
+
+    <title>
+      Valéry Petroff
+    </title>
+
+
+    <!-- On relie les feuilles de styles en lignes proposées par google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap">
+
+    <!-- On relie la feuille de style de la bibliothèque Materialize. -->
+    <link rel="stylesheet" href="./materialize/css/materialize.css">
+
+    <!-- On relie la feuille de style spécifique au projet. -->
+    <link rel="stylesheet" href="./css/style_test.css">
+
+  </head>
+
+  <body class="grey darken-4 yellow-text text-lighten-5">
+
+    <div class="largeur-33-elmt-centre bg-img-diamant hauteur-150p">
+
+    </div>
+
+    <h1>
+      Luxus
+    </h1>
+
+    <hr class="largeur-70-elmt-centre">
+
+    <h2 class="largeur-70-elmt-centre">
+      Lorem ipsum dolor
+    </h2>
+
+    <!-- Commentaires -->
+    <p class="largeur-70-elmt-centre">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+
+    <hr class="largeur-70-elmt-centre">
+
+    <h2 class="largeur-70-elmt-centre">
+      Duis aute irure
+    </h2>
+    <p class="largeur-70-elmt-centre">
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+
+    <div id="conteneur-liste" class="conteneur-contact largeur-70-elmt-centre blue accent-1 black-text">
+      Vous pouvez nous contacter :
+      <!-- On crée une liste de bullet points (puces) -->
+      <ul>
+        <li>
+          Par téléphone au : +33 2 03 04 05 06.
+        </li>
+        <li>
+          Par courrier : 15 place Vendôme - 75001 Paris - France
+        </li>
+        <li>
+          Par email : contact(at)luxus.com
+          <br>
+          Remplacer (at) par un arobase.
+        </li>
+
+      </ul>
+    </div>
+
+    <button class="btn-contact">
+      NOUS CONTACTER
+    </button>
+
+    <div class="conteneur-commande">
+      <p class="confirmation-commande">
+
+
+      </p>
+
+      <button class="btn-commande-bague">
+        Commander 1 bague
+      </button>
+
+      <button class="btn-commande-collier">
+        Commander 1 collier
+      </button>
+
+      <button class="btn-valider-commande">
+        VALIDER
+      </button>
+    </div>
+
+    <button class="btn-commander">
+      COMMANDER
+    </button>
+
+    <p class="largeur-70-elmt-centre">
+      Icônes conçues par <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/fr/" title="Flaticon"> www.flaticon.com</a>
+    </p>
+
+    <!-- On fait la liaison avec le fichier jQuery (la bibliothèque) -->
+    <script src="./jquery/jquery-3.5.1.min.js"></script>
+    <!-- On insère une liaison vers notre fichier de code JS -->
+    <script src="./js/scripts_luxe.js"></script>
+
+  </body>
+
+</html>
